@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(BG.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    /* background-size: cover; */
+    /* width: 1440px;
+    height: 1024px; */
+    color: white
+}
+
+h1, h3, p {
+    font-family: lato;
+} 
+
+h1 {
+    font-size: 88px;
+}
+
+.container {
+    width: 684px;
+    height: 454px;
+    padding-top: 170px;
+    padding-left: 65px;
+}
+
+.content-container {
+    width: 684px;
+    height: 212px;
+    line-height: 105px;
+}
+
+.isi-container {
+    width: 568px;
+    height: 128px;
+    font-size: 24px;
+}
+
+.button-container {
+    width: 216px;
+    height: 66px;
+    padding: 24px, 48px;
+    font-size: 24px;
+    line-height: 18px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    gap: 24px;
+    width: 1284px;
+    height: 232px;
+    top: 728px;
+    padding-left: 64px;
+}
+
+.isi-card {
+    width: 412px;
+    height: 232px;
+    background: #1d1d1d;
+    backdrop-filter: blur(16px);
+    border-radius: 16px;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.isi-card h3 {
+    font-size: 32px;
+}
+
+.isi-card p {
+    font-size: 24px;
+}
